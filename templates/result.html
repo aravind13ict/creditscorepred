@@ -1,0 +1,46 @@
+
+<html>
+<head>
+    <title>Credit score classification result</title>
+    <style>
+        body {
+            background-image:url("static/images/Businessman pushing credit score speedometer from poor to good.jpg");
+            background-size: cover; 
+            background-position: center;
+            background-attachment: fixed;
+        }
+    </style>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #04f1fe;
+            font-family: Lucida Console , Monospace	;
+        }
+        .result-container {
+            text-align: center;
+            border: 2px solid rgb(16, 17, 16);
+            padding: 20px;
+            border-radius: 10px;
+            background-color: rgb(14, 246, 6);
+            box-shadow: 0 0 10px rgb(21, 21, 21);
+        }
+        h1, h3 {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="result-container">
+        <h1>CREDIT SCORE:</h1>
+        <h3 style="color:rgb(12, 12, 12); font-size: 35px;">{{ prediction }}</h3>
+    </div>
+</body>
+</html>
+    
